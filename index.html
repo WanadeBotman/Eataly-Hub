@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eataly-Hub | Italian Gastronomy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EATALY<span>HUB</span></div>
+        <div class="nav-right">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Search menu...">
+            </div>
+            <div class="cart-toggle" id="cart-open">
+                <i class="fas fa-shopping-bag"></i>
+                <span id="cart-counter">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="gold-label">Est. 1984 • Milan</span>
+            <h1>The Fine Art of <br> Italian Dining</h1>
+            <p>Experience 8 curated chapters of authentic flavors.</p>
+            <a href="#menu-sections" class="btn-gold">Explore the Menu</a>
+        </div>
+    </header>
+
+    <div class="category-strip">
+        <div class="cat-wrapper">
+            <a href="#starters">Antipasti</a>
+            <a href="#pasta">Pasta</a>
+            <a href="#pizza">Pizza</a>
+            <a href="#mains">Secondi</a>
+            <a href="#salads">Salads</a>
+            <a href="#sides">Contorni</a>
+            <a href="#desserts">Dolci</a>
+            <a href="#drinks">Drinks</a>
+        </div>
+    </div>
+
+    <main id="menu-sections" class="container">
+        </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">EATALY<span>HUB</span></div>
+            <p>Crafting authentic Italian moments since 1984.</p>
+            <p>&copy; 2026 Eataly-Hub. All rights reserved.</p>
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <p>Designed by <a href="https://github.com/WanadeBotman target="_blank">sharkcxode</a></p>
+
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+    <aside class="cart-sidebar" id="side-cart">
+        <div class="cart-inner">
+            <div class="cart-header">
+                <h2>Your Table</h2>
+                <button id="cart-close">&times;</button>
+            </div>
+            <div class="cart-body" id="cart-items-container">
+                </div>
+            <div class="cart-footer">
+                <div class="total-row"><span>Subtotal</span><span id="subtotal">$0.00</span></div>
+                <div class="total-row main"><span>Total</span><span id="final-total">$0.00</span></div>
+                <button class="btn-checkout" id="checkout-trigger">Confirm Order</button>
+            </div>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
