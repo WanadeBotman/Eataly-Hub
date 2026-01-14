@@ -5,6 +5,10 @@
 **Eataly-Hub** is a high-end, responsive digital menu and ordering platform designed to showcase the fine art of Italian dining. Established to reflect Milanese gastronomy, the application provides a seamless transition from browsing curated culinary chapters to a functional checkout simulation.
 
 ---
+## Live Demo 🚀
+You can view the live website here: [Live Demo Link](https://wanadebotman.github.io/Eataly-Hub/)
+
+---
 
 ## 🍽️ Project Features
 
